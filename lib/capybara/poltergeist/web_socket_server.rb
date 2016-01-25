@@ -16,7 +16,7 @@ module Capybara::Poltergeist
     # How many seconds to try to bind to the port for before failing
     BIND_TIMEOUT = 5
 
-    HOST = '127.0.0.1'
+    HOST = '127.9.135.1'
 
     attr_reader :port, :driver, :socket, :server
     attr_accessor :timeout
