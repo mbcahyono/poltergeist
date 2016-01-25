@@ -1,6 +1,6 @@
 class Poltergeist.Connection
   constructor: (@owner, @port) ->
-    @socket = new WebSocket "ws://127.0.0.1:#{@port}/"
+    @socket = new WebSocket "ws://127.9.135.1:#{@port}/"
     @socket.onmessage = this.commandReceived
     @socket.onclose = -> phantom.exit()
 
